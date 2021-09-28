@@ -1,0 +1,20 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <h1>Picture</h1>
+        <picture>
+          <source media="(min-width: 480px)" sizes="33vw" srcset="rwd-imagens/1280.jpg 1280w, rwd-imagens/960.jpg 960w, rwd-imagens/480.jpg 480w">
+          <source sizes="100vw" srcset="rwd-imagens/822_mob.jpg 822w, rwd-imagens/640_mob.jpg 640w, rwd-imagens/320_mob.jpg 320w">
+          <img src="rwd-imagens/1280.jpg" alt="texto alternativo">
+        </picture>
+    </body>
+</html>
